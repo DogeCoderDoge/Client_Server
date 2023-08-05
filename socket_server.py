@@ -1,8 +1,5 @@
 import socket
 
-maths = 90
-english = 80
-
 def server():
     host = socket.gethostbyname(socket.gethostname())
     port = 5000
